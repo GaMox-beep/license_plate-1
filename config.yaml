@@ -1,0 +1,10 @@
+camera:
+  id: 0  # ID camera (0 là camera mặc định)
+yolo:
+  model_path: models/yolov8/license_plate_detector.pt
+  confidence_threshold: 0.5
+cnn:
+  model_path: models/cnn/char_cnn_model_optimized.h5
+output:
+  save_dir: data/output/
+  save_results: true
