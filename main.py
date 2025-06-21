@@ -11,6 +11,8 @@ license_plate_detector = YOLO('D:/license_plate-1/models/yolov8/license_plate_de
 
 # Mở video
 cap = cv2.VideoCapture('C:/Users/gates/Downloads/Video/2103099-uhd_3840_2160_30fps.mp4')
+#MỞ cam
+# cap = cv2.VideoCapture(0)
 
 while cap.isOpened():
     ret, frame = cap.read()
