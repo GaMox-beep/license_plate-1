@@ -1,7 +1,7 @@
 import easyocr
 import string
 
-reader = easyocr.Reader(['en'],gpu=False)
+reader = easyocr.Reader(['en'],gpu=True)
 dict_char_to_int = {'O': '0',
                     'I': '1',
                     'J': '3',
